@@ -214,7 +214,7 @@ if(!localStorage.getItem('gp_logged_in')){ window.location='login.html'; }
   <main id="view-portais" class="view">
     <section class="card">
       <div class="card-title">
-        <span>Portais da loja</span>
+        <span>Portais da loja</span><button id="exportPortais" class="export-btn">Exportar CSV</button>
         <small>Custos, vencimentos e CPV básico</small>
       </div>
       <div class="card-content">
@@ -248,7 +248,7 @@ if(!localStorage.getItem('gp_logged_in')){ window.location='login.html'; }
   <main id="view-equipe" class="view">
     <section class="card">
       <div class="card-title">
-        <span>Equipe de vendas</span>
+        <span>Equipe de vendas</span><button id="exportEquipe" class="export-btn">Exportar CSV</button>
         <small>Leads, visitas, vendas e conversão</small>
       </div>
       <div class="card-content equipe-grid" id="equipe-cards"></div>
