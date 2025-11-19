@@ -374,7 +374,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 });
 
 document.addEventListener("DOMContentLoaded",()=>{
- function exportCSV(tableId, filename){
+
    const rows=document.querySelectorAll("#"+tableId+" tr");
    let csv=[];
    rows.forEach(r=>{
@@ -390,9 +390,9 @@ document.addEventListener("DOMContentLoaded",()=>{
    a.click();
  }
 
- const b1=document.getElementById('exportEquipe');
- if(b1) b1.onclick=()=>exportCSV('equipe-table','equipe_promocar.csv');
 
- const b2=document.getElementById('exportPortais');
- if(b2) b2.onclick=()=>exportCSV('portais-table','portais_promocar.csv');
+
+
+
+
 });
